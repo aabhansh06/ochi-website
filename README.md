@@ -1,8 +1,57 @@
-# React + Vite
+# React + Vite Project Boilerplate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Vite](https://img.shields.io/badge/Vite-6.0.5-%23646CFF.svg?logo=vite)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/React-18.3.1-%2361DAFB.svg?logo=react)](https://react.dev/)
 
-Currently, two official plugins are available:
+A modern React boilerplate with Vite, featuring:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Key Features
+- ⚡ **Blazing Fast** development with Vite HMR
+- 🛠️ **ESLint Integration** for code quality
+- 🎨 **Tailwind CSS** v3.4+ support
+- 🧩 **Plugin Options**:
+  - [`@vitejs/plugin-react`](https://github.com/vitejs/vite-plugin-react) (Babel-based)
+  - [`@vitejs/plugin-react-swc`](https://github.com/vitejs/vite-plugin-react-swc) (SWC-based)
+
+## 📦 Getting Started
+
+### Prerequisites
+- Node.js v14+
+- npm v7+ or yarn v1.22+
+
+### Installation
+```bash
+git clone https://github.com/your-username/ochi.git
+cd ochi
+npm install  # or yarn
+```
+
+### Development Scripts
+| Command          | Description                     |
+|------------------|---------------------------------|
+| `npm run dev`    | Start development server        |
+| `npm run build`  | Create production build         |
+| `npm run preview`| Preview production build locally|
+| `npm run lint`   | Run ESLint checks               |
+
+## 🛠️ Advanced Configuration
+```javascript
+// vite.config.js
+export default defineConfig({
+  plugins: [
+    react({  // Switch between Babel/SWC
+      jsxImportSource: '@emotion/react',
+      babel: {
+        plugins: ['@emotion/babel-plugin'],
+      },
+    }),
+  ],
+});
+```
+
+## 🤝 Contributing
+PRs welcome! Please follow our [contribution guidelines](CONTRIBUTING.md).
+
+## 📄 License
+MIT 
