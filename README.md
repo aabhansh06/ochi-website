@@ -2,6 +2,8 @@
 
 ochi website video 
 
+https://github.com/user-attachments/assets/789a604d-4b19-44dd-aaca-fe0f5a576f27
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Vite](https://img.shields.io/badge/Vite-6.0.5-%23646CFF.svg?logo=vite)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React-18.3.1-%2361DAFB.svg?logo=react)](https://react.dev/)
